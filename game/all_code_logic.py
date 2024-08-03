@@ -10,7 +10,7 @@ def create_window():
 
     cursor_color = [(0, 100, 0), (100, 0, 0), (0, 0, 100)]
     current_cursor_color_index = 0
-    cursor_size = 50
+    cursor_size = 100
 
     pygame.mouse.set_visible(False)
 
