@@ -1,14 +1,24 @@
-## This is game speciall for @Rioran
+## This game is specially for https://github.com/Rioran
 
-**The game was created to order, with special conditions.
-I will tell you about the controls in the game and what happens in it:
-You can change the size of the circle using the mouse wheel, change the colors of the circle if you press the right mouse button
-and change the background colors using the left mouse button.
-There are 6 colors for the circle and background (for each).
-The game stretches to the entire screen, and to exit you need to press the ESC key.**
+The game was created to order, with special conditions.
+
+This game is designed for children to teach them how to use a PC mouse.
+Below I talk about launching and managing.
+
+### Link on web page: https://daniilamoshiy1.github.io/game_for_child/game/web/index.html
+
+# Control:
+### right click mouse - change background color
+
+### left click mouse - change mouse color
+
+### turn up mouse wheel - make the ball bigger
+
+### turn down mouse wheel - make the smaller
+
+### Esc - stop work and close window
 
 # Commands:
-
 ## download requirements:
 ```bash
 pip install -r requirements.txt
@@ -17,13 +27,11 @@ pip install -r requirements.txt
 ```bash
 python game/main.py
 ```
-## create web page:
-```bash
-pygbag --build game
-```
 ## ruff check:
 ```bash
 ruff check .
 ```
-
-## for exit from game, you can push to ESC
+## create web page:
+```bash
+pygbag --build game
+```

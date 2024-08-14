@@ -1,21 +1,31 @@
-
 START_CURSOR_SIZE = 100
 MINIMAL_CURSOR_SIZE = 50
 MAXIMAL_CURSOR_SIZE = 200
 STEP_CURSOR_SIZE = 10
+SCREEN_SIZE = (0, 0)
+
+RIGHT_CLICK = 3
+LEFT_CLICK = 1
+WHEEL_UP = 4
+WHEEL_DOWN = 5
 
 
-BACKGROUND_COLORS = [(200, 255, 200), (255, 200, 200), (200, 200, 255)]
-CURSOR_COLORS = [(0, 100, 0), (100, 0, 0), (0, 0, 100)]
-
-BACKGROUND_COLORS.insert(1, ((200 + 255) // 2, (255 + 200) // 2, (200 + 200) // 2))
-BACKGROUND_COLORS.insert(3, ((255 + 200) // 2, (200 + 200) // 2, (200 + 255) // 2))
-BACKGROUND_COLORS.insert(5, ((200 + 200) // 2, (200 + 255) // 2, (255 + 200) // 2))
-
-CURSOR_COLORS.insert(1, ((0 + 100) // 2, (100 + 0) // 2, (0 + 0) // 2))
-CURSOR_COLORS.insert(3, ((100 + 0) // 2, (0 + 0) // 2, (0 + 100) // 2))
-CURSOR_COLORS.insert(5, ((0 + 0) // 2, (0 + 100) // 2, (100 + 0) // 2))
-
+BACKGROUND_COLORS = [
+    (200, 255, 200),
+    (255, 255, 200),
+    (255, 200, 200),
+    (255, 200, 255),
+    (200, 200, 255),
+    (200, 255, 255)
+]
+CURSOR_COLORS = [
+    (0, 100, 0),
+    (100, 100, 0),
+    (100, 0, 0),
+    (100, 0, 100),
+    (0, 0, 100),
+    (0, 100, 100)
+]
 
 LEN_BACKGROUND_COLORS = len(BACKGROUND_COLORS)
 LEN_CURSOR_COLORS = len(CURSOR_COLORS)
