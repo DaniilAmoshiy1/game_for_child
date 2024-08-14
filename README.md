@@ -17,11 +17,11 @@ pip install -r requirements.txt
 ```bash
 python game/main.py
 ```
-## create web page
+## create web page:
 ```bash
 pygbag --build game
 ```
-## raff check
+## ruff check:
 ```bash
 ruff check .
 ```
